@@ -4,8 +4,12 @@
   "description": "JavaScript - start",
   "main": "index.js",
   "scripts": {
+
     "start": "node index.js",
-    "task1": "node tasks/task-1.js"
+  
+    "task1": "node tasks/task-1.js",
+    "task2": "node tasks/task-2.js"
+
   },
   "repository": {
     "type": "git",
