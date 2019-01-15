@@ -1,0 +1,20 @@
+{
+  "name": "lds-js-sync",
+  "version": "1.0.0",
+  "description": "JavaScript - start",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "task1": "node tasks/task-1.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vdenisov-dev/lds-js-sync.git"
+  },
+  "author": "Vladimir Denisov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vdenisov-dev/lds-js-sync/issues"
+  },
+  "homepage": "https://github.com/vdenisov-dev/lds-js-sync#readme"
+}
