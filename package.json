@@ -8,7 +8,8 @@
     "start": "node index.js",
   
     "task1": "node tasks/task-1.js",
-    "task2": "node tasks/task-2.js"
+    "task2": "node tasks/task-2.js",
+    "task3": "node tasks/task-3.js"
 
   },
   "repository": {

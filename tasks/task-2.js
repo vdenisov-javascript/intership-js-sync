@@ -43,3 +43,6 @@ if (require.main === module) {
     JSON.stringify(catGenerator.next().value)
   }\n`);
 }
+
+
+module.exports = { catFactory };
