@@ -6,6 +6,8 @@
 // ######################### //
 
 const { catFactory } = require('./task-2');
+const helpers = require('./helpers');
+
 
 function catsGroupGenerate(n) {
 
@@ -16,15 +18,9 @@ function catsGroupGenerate(n) {
 // ######################### //
 
 if (require.main === module) {
-  let catsGroup = catsGroupGenerate(5);
+  const catsGroup = catsGroupGenerate(5);
 
-  console.log(`
-    Cats group length => ${ catsGroup.length }
-  `);
-  for(let i=0; i<catsGroup.length; i++) {
-    console.log(JSON.stringify(catsGroup[i]));
-  }
-  console.log('');
+  helpers.prettyPrintArrayWithTitle('Cats group', catsGroup);
 }
 
 

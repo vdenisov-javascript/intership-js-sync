@@ -13,6 +13,8 @@
 // ######################### //
 
 const { pick } = require('./task-1');
+const helpers = require('./helpers');
+
 
 const variantsFor = {
   name: [ 'Соник', 'Пуфик', 'Барсик' ],
@@ -39,9 +41,7 @@ function *catFactory() {
 if (require.main === module) {
   const catGenerator = catFactory();
 
-  console.log(`\nnew cat -> ${
-    JSON.stringify(catGenerator.next().value)
-  }\n`);
+  helpers.prettyPrintObjectWithTitle('New cat', catGenerator.next().value);
 }
 
 

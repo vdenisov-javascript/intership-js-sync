@@ -10,6 +10,9 @@
 
 // ######################### //
 
+const helpers = require('./helpers');
+
+
 function nameStats(list) {
 
   const stats = {}
@@ -21,15 +24,6 @@ function nameStats(list) {
 
 }
 
-// help function
-// => pretty print of array and title for it
-function prettyPrint(title, data) {
-  console.log(`\n ##### ${title} ##### \n`);
-  for(let i=0; i<data.length; i++) {
-    console.log(JSON.stringify(data[i]));
-  }
-}
-
 // ######################### //
 
 if (require.main === module) {
@@ -38,11 +32,10 @@ if (require.main === module) {
 
   // const list = catsGroupGenerate(999);
   const list = catsGroupGenerate(10);
-  prettyPrint('Cats group', list);
+  helpers.prettyPrintArrayWithTitle('Cats group', list);
 
   const statistic = nameStats(list);
-  console.log(`\n ##### Statistic ##### \n`);
-  console.log(JSON.stringify(statistic));
+  helpers.prettyPrintObjectWithTitle('Statistic', statistic);
 
 }
 
