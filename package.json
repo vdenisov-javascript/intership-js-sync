@@ -16,7 +16,8 @@
     "task1:test": "mocha --watch tests/task-1.test.js",
     "task2:test": "mocha --watch tests/task-2.test.js",
     "task3:test": "mocha --watch tests/task-3.test.js",
-    "task4:test": "mocha --watch tests/task-4.test.js"
+    "task4:test": "mocha --watch tests/task-4.test.js",
+    "task5:test": "mocha --watch tests/task-5.test.js"
   },
   "repository": { 
     "type": "git",
