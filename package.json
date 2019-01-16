@@ -20,6 +20,7 @@
     "task4:test": "mocha --watch tests/task-4.test.js",
     "task5:test": "mocha --watch tests/task-5.test.js",
     "task6:test": "mocha --watch tests/task-6.test.js",
+    "loudness:test": "mocha --watch tests/loudness.test.js",
     
     "tests": "mocha --watch tests/"
   },
