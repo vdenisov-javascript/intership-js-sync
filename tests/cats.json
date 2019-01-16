@@ -1,0 +1,101 @@
+{
+
+  "all": [
+    { "name":"Соник",   "age":5,    "gender":"male",    "legsCount":4,  "tailLength":30 },
+    { "name":"Соник",   "age":4,    "gender":"female",  "legsCount":4,  "tailLength":40 },
+    { "name":"Барсик",  "age":10,   "gender":"female",  "legsCount":4,  "tailLength":50 },
+    { "name":"Пуфик",   "age":4,    "gender":"male",    "legsCount":4,  "tailLength":50 },
+    { "name":"Пуфик",   "age":9,    "gender":"female",  "legsCount":4,  "tailLength":30 },
+    { "name":"Соник",   "age":9,    "gender":"male",    "legsCount":4,  "tailLength":50 },
+    { "name":"Соник",   "age":10,   "gender":"male",    "legsCount":4,  "tailLength":30 },
+    { "name":"Пуфик",   "age":4,    "gender":"female",  "legsCount":4,  "tailLength":40 },
+    { "name":"Барсик",  "age":9,    "gender":"female",  "legsCount":4,  "tailLength":50 },
+    { "name":"Пуфик",   "age":8,    "gender":"female",  "legsCount":4,  "tailLength":30 },
+    { "name":"Соник",   "age":3,    "gender":"female",  "legsCount":4,  "tailLength":30 },
+    { "name":"Барсик",  "age":4,    "gender":"male",    "legsCount":4,  "tailLength":40 },
+    { "name":"Барсик",  "age":10,   "gender":"male",    "legsCount":4,  "tailLength":40 },
+    { "name":"Пуфик",   "age":9,    "gender":"male",    "legsCount":4,  "tailLength":40 },
+    { "name":"Соник",   "age":9,    "gender":"male",    "legsCount":4,  "tailLength":50 },
+    { "name":"Барсик",  "age":2,    "gender":"male",    "legsCount":4,  "tailLength":40 },
+    { "name":"Барсик",  "age":10,   "gender":"male",    "legsCount":4,  "tailLength":40 },
+    { "name":"Барсик",  "age":2,    "gender":"male",    "legsCount":4,  "tailLength":40 },
+    { "name":"Пуфик",   "age":10,   "gender":"female",  "legsCount":4,  "tailLength":30 },
+    { "name":"Пуфик",   "age":5,    "gender":"female",  "legsCount":4,  "tailLength":30 },
+    { "name":"Соник",   "age":2,    "gender":"female",  "legsCount":4,  "tailLength":50 },
+    { "name":"Пуфик",   "age":10,   "gender":"female",  "legsCount":4,  "tailLength":40 },
+    { "name":"Пуфик",   "age":1,    "gender":"female",  "legsCount":4,  "tailLength":50 },
+    { "name":"Соник",   "age":7,    "gender":"female",  "legsCount":4,  "tailLength":40 },
+    { "name":"Пуфик",   "age":10,   "gender":"male",    "legsCount":4,  "tailLength":30 },
+    { "name":"Пуфик",   "age":7,    "gender":"female",  "legsCount":4,  "tailLength":40 },
+    { "name":"Соник",   "age":6,    "gender":"female",  "legsCount":4,  "tailLength":40 },
+    { "name":"Соник",   "age":1,    "gender":"male",    "legsCount":4,  "tailLength":40 },
+    { "name":"Пуфик",   "age":3,    "gender":"female",  "legsCount":4,  "tailLength":40 },
+    { "name":"Барсик",  "age":2,    "gender":"female",  "legsCount":4,  "tailLength":50 }
+  ],
+
+  "male": [
+    { "name":"Соник",   "age":5,    "gender":"male",    "legsCount":4,  "tailLength":30 },
+    { "name":"Пуфик",   "age":4,    "gender":"male",    "legsCount":4,  "tailLength":50 },
+    { "name":"Соник",   "age":9,    "gender":"male",    "legsCount":4,  "tailLength":50 },
+    { "name":"Соник",   "age":10,   "gender":"male",    "legsCount":4,  "tailLength":30 },
+    { "name":"Барсик",  "age":4,    "gender":"male",    "legsCount":4,  "tailLength":40 },
+    { "name":"Барсик",  "age":10,   "gender":"male",    "legsCount":4,  "tailLength":40 },
+    { "name":"Пуфик",   "age":9,    "gender":"male",    "legsCount":4,  "tailLength":40 },
+    { "name":"Соник",   "age":9,    "gender":"male",    "legsCount":4,  "tailLength":50 },
+    { "name":"Барсик",  "age":2,    "gender":"male",    "legsCount":4,  "tailLength":40 },
+    { "name":"Барсик",  "age":10,   "gender":"male",    "legsCount":4,  "tailLength":40 },
+    { "name":"Барсик",  "age":2,    "gender":"male",    "legsCount":4,  "tailLength":40 },
+    { "name":"Пуфик",   "age":10,   "gender":"male",    "legsCount":4,  "tailLength":30 },
+    { "name":"Соник",   "age":1,    "gender":"male",    "legsCount":4,  "tailLength":40 }
+  ],
+
+  "names": [
+    "Соник",
+    "Соник",
+    "Барсик",
+    "Пуфик",
+    "Пуфик",
+    "Соник",
+    "Соник",
+    "Пуфик",
+    "Барсик",
+    "Пуфик",
+    "Соник",
+    "Барсик",
+    "Барсик",
+    "Пуфик",
+    "Соник",
+    "Барсик",
+    "Барсик",
+    "Барсик",
+    "Пуфик",
+    "Пуфик",
+    "Соник",
+    "Пуфик",
+    "Пуфик",
+    "Соник",
+    "Пуфик",
+    "Пуфик",
+    "Соник",
+    "Соник",
+    "Пуфик",
+    "Барсик"
+  ],
+
+  "5OldestMale": [
+    { "name":"Соник",   "age":10,   "gender":"male",    "legsCount":4,  "tailLength":30 },
+    { "name":"Пуфик",   "age":10,   "gender":"male",    "legsCount":4,  "tailLength":30 },
+    { "name":"Барсик",  "age":10,   "gender":"male",    "legsCount":4,  "tailLength":40 },
+    { "name":"Барсик",  "age":10,   "gender":"male",    "legsCount":4,  "tailLength":40 },
+    { "name":"Пуфик",   "age":9,    "gender":"male",    "legsCount":4,  "tailLength":40 }
+  ],
+  
+  "5YoungestFemale": [
+    { "name":"Пуфик",   "age":1,    "gender":"female",  "legsCount":4,  "tailLength":50 },
+    { "name":"Барсик",  "age":2,    "gender":"female",  "legsCount":4,  "tailLength":50 },
+    { "name":"Соник",   "age":2,    "gender":"female",  "legsCount":4,  "tailLength":50 },
+    { "name":"Пуфик",   "age":3,    "gender":"female",  "legsCount":4,  "tailLength":40 },
+    { "name":"Соник",   "age":3,    "gender":"female",  "legsCount":4,  "tailLength":30 }
+  ]
+  
+}
