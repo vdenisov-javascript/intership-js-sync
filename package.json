@@ -13,7 +13,8 @@
     "task5": "node tasks/task-5.js",
     "task6": "node tasks/task-6.js",
 
-    "task1:test": "mocha --watch tests/task-1.test.js"
+    "task1:test": "mocha --watch tests/task-1.test.js",
+    "task2:test": "mocha --watch tests/task-2.test.js"
   },
   "repository": {
     "type": "git",
