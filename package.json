@@ -5,12 +5,15 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
+
     "task1": "node tasks/task-1.js",
     "task2": "node tasks/task-2.js",
     "task3": "node tasks/task-3.js",
     "task4": "node tasks/task-4.js",
     "task5": "node tasks/task-5.js",
-    "task6": "node tasks/task-6.js"
+    "task6": "node tasks/task-6.js",
+
+    "task1:test": "mocha --watch tests/task-1.test.js"
   },
   "repository": {
     "type": "git",
