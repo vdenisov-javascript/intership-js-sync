@@ -25,7 +25,7 @@ const variantsFor = {
   legsCount: [ 4 ],
   tailLength: [30, 40, 50],
 
-  // loudness: [ '25 Гц', '50 Гц', '75 Гц', '100 Гц', '125 Гц', '150 Гц' ]
+  loudness: [ '25 Гц', '50 Гц', '75 Гц', '100 Гц', '125 Гц', '150 Гц' ]
 };
 
 function *catFactory() {
@@ -37,7 +37,7 @@ function *catFactory() {
     legsCount:  pick( variantsFor.legsCount ),
     tailLength: pick( variantsFor.tailLength ),
 
-    // loudness:   pick( variantsFor.loudness )
+    loudness:   pick( variantsFor.loudness )
   };
 
 }
