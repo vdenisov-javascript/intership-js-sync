@@ -15,7 +15,7 @@ const helpers = require('./helpers');
 
 function nameStats(list) {
 
-  const stats, names = {}, [];
+  const [ stats, names ] = [ new Array(), new Object() ];
 
   list.forEach(element => {
     const name = element.name;
@@ -26,7 +26,7 @@ function nameStats(list) {
       names.push(name);
     }
   });
-  
+
   return stats;
 
 }
