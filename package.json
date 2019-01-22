@@ -5,6 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
+    "tests": "mocha --watch tests/",
+    "eslint": "eslint .",
 
     "task1": "node tasks/task-1.js",
     "task2": "node tasks/task-2.js",
@@ -20,11 +22,9 @@
     "task4:test": "mocha --watch tests/task-4.test.js",
     "task5:test": "mocha --watch tests/task-5.test.js",
     "task6:test": "mocha --watch tests/task-6.test.js",
-    "loudness:test": "mocha --watch tests/loudness.test.js",
-    
-    "tests": "mocha --watch tests/"
+    "loudness:test": "mocha --watch tests/loudness.test.js"
   },
-  "repository": { 
+  "repository": {
     "type": "git",
     "url": "git+https://github.com/vdenisov-dev/lds-js-sync.git"
   },
@@ -35,6 +35,7 @@
   },
   "homepage": "https://github.com/vdenisov-dev/lds-js-sync#readme",
   "devDependencies": {
+    "eslint": "^5.12.0",
     "mocha": "^5.2.0"
   }
 }

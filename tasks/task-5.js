@@ -15,11 +15,18 @@ const helpers = require('./helpers');
 
 function nameStats(list) {
 
-  const stats = {}
+  const [ stats, names ] = [ new Array(), new Object() ];
+
   list.forEach(element => {
     const name = element.name;
-    Object.keys(stats).includes(name) ? stats[name] += 1 : stats[name] = 1;
+    if (names.includes(name)) {
+      stats[name] += 1;
+    } else {
+      stats[name] = 1;
+      names.push(name);
+    }
   });
+
   return stats;
 
 }

@@ -26,14 +26,14 @@ function getCatsNames(list) {
 function getOldestMaleCats(list, n) {
   return list
     .filter(cat => cat.gender === 'male')
-    .sort( helpers.sortArrayOfObjectsByKey('age', reverse = true) )
+    .sort( helpers.sortArrayOfObjectsByKey('age', true) )
     .slice(0, n);
 }
 
 function getYoungestFemaleCats(list, n) {
   return list
     .filter(cat => cat.gender === 'female')
-    .sort( helpers.sortArrayOfObjectsByKey('age', reverse = false) )
+    .sort( helpers.sortArrayOfObjectsByKey('age', false) )
     .slice(0, n);
 }
 
